@@ -80,5 +80,7 @@ In addition to the main room, create at least three different rooms (look to our
 # Icebox
 
   * Validation - when a message exceeds 500 characters in its body, it should be rejected, and not sent to the database. 
-  * Rather than utilizing `localhost`, set up your database to connect to a MongoDb Atlas cluster.
-  * Show messages in real time as the are entered, rather than after a delay. 
+ 
+  * Rather than utilizing `localhost`, set up your database to connect to a MongoDb Atlas cluster. If you reach this icebox, you will **need** to utilize the dotenv library and a `.env` file to hide the password in your connection string. The `.gitignore` already ignores `.env` for you.
+ 
+  * Show messages in real time, such as occurs in Discord or Zoom, rather than after a polled delay.
