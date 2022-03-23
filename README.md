@@ -79,6 +79,8 @@ In addition to the main room, create at least three different rooms (look to our
 
 # Icebox
 
+  * Set your ad image to change to a new ad after a predetermined amount of time.
+
   * Validation - when a message exceeds 500 characters in its body, it should be rejected, and not sent to the database. 
  
   * Rather than utilizing `localhost`, set up your database to connect to a MongoDb Atlas cluster. If you reach this icebox, you will **need** to utilize the dotenv library and a `.env` file to hide the password in your connection string. The `.gitignore` already ignores `.env` for you.
